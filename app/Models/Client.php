@@ -27,4 +27,8 @@ class Client extends Model {
 		'company_name',
 		'client_type'
 	];
+
+	public function soccerTeam(){
+		return $this->belongsTo(SoccerTeam::class);
+	}
 }
