@@ -19,7 +19,7 @@ class Client extends Model {
 		'document_number',
 		'email',
 		'phone',
-		'defaulter',
+		'dafaulter',
 		'date_birth',
 		'sex',
 		'marital_status',
