@@ -32,4 +32,9 @@ class Client extends Model {
 	public function soccerTeam(){
 		return $this->belongsTo(SoccerTeam::class);
 	}
+
+	public function clientProfile()
+	{
+		return $this->hasOne(ClientProfile::class);
+	}
 }
