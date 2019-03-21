@@ -12,3 +12,6 @@ php7 artisan make:seeder ClientProfilesTableSeeder
 Many to many
 
 php7 artisan make:migration create_category_product_table --create=category_product
+
+
+composer dumpautoload
