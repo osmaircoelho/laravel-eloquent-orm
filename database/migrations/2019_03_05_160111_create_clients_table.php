@@ -19,7 +19,7 @@ class CreateClientsTable extends Migration
 		    $table->string('document_number');
 		    $table->string('email');
 		    $table->string('phone');
-		    $table->boolean('dafaulter'); //inadimplente. the right is defaulter
+		    $table->boolean('defaulter'); //inadimplente. the right is defaulter
 		    $table->date('date_birth')->nullable();
 		    $table->char('sex')->nullable(); //m ou f
 		    $table->smallInteger('marital_status')->nullable(); //enum
